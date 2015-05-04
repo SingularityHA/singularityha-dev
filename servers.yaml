@@ -1,0 +1,19 @@
+---
+- name: puppetmaster
+  box: 
+  ip: 192.0.2.5
+- name: controller
+  box: 
+  ip: 192.0.2.10
+- name: ninjablock
+  box:
+  ip: 192.0.2.11
+- name: sender
+  box:
+  ip: 192.0.2.12
+- name: frontend
+  box:
+  ip: 192.0.2.13
+- name: mediaplayer
+  box:
+  ip: 192.0.2.14
